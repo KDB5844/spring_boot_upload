@@ -23,7 +23,7 @@ public class ServletUploadControllerV1 {
     }
 
     @PostMapping("/upload")
-    public String newFile1(HttpServletRequest request) throws ServletException, IOException {
+    public String newFileV1(HttpServletRequest request) throws ServletException, IOException {
 
         log.info("request={}" ,request);
 
